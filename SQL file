@@ -191,4 +191,3 @@ VALUES
 -- 6. Create a secure user with limited access
 CREATE USER IF NOT EXISTS 'bookstore_user'@'localhost' IDENTIFIED BY 'StrongPassword123!';
 GRANT SELECT, INSERT, UPDATE, DELETE ON BookstoreDB.* TO 'bookstore_user'@'localhost';
-
